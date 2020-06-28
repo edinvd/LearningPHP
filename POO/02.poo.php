@@ -25,6 +25,7 @@ class Automovil{
 #OBJETO
 #Una entidad provista de métodos o mensajes a los cuales responde propiedades con valores concretos
 
+
 $a = new Automovil();
 $a -> marca = "Toyota";
 $a -> modelo = "Corolla";
@@ -39,6 +40,12 @@ $b = new Automovil();
 $b -> marca = "Mazda";
 $b -> modelo = "2";
 $b -> mostrar(); 
+
+$c = new Automovil();
+$c -> marca = "Kia";
+$c -> modelo = "Rio";
+$c -> mostrar(); 
+
 
 #Principios de la POO que se cumplen en este ejemplo:
 
